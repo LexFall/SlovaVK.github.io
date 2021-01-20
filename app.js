@@ -1,7 +1,7 @@
-VK.init(function() {
-	init();
+ VK.init(function() {
+      init();
   }, function() {
-}, '5.126'); 
+}, '5.60'); 
 
 function init() {
 	VK.api("users.get",{"fields":"photo_50,first_name,last_name","v":"5.73"}, function (data){
